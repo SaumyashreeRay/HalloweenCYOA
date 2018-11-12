@@ -1,0 +1,210 @@
+h1 {
+    font-family: 'Creepster', cursive;
+    color: #130912;
+    text-shadow:
+        -2px -2px 0 #F49130,
+        2px -2px 0 #F49130,
+        -2px 2px 0 #F49130,
+        2px 2px 0 #F49130; 
+    font-size: 34px;
+}
+button {
+    width: 100%;
+    background: #966884;
+    font-family: 'Arvo', serif;
+    flex: 1;
+}
+
+.story-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 15px;
+    background-color: #841C26;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.story {
+    margin: 15px 5px;
+    background-color: #ffffff;
+    opacity: 0.9;  
+    padding:5px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.story:hover {
+    opacity: 1.0;
+}
+.options-list {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #3D1D33;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    flex-direction: column; 
+    max-height: 45%;
+}
+
+.option {
+    flex: 1;
+    padding: 1%;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+}
+
+#beginning {
+    background-image: url(../img/halloween1.jpg);
+}
+
+#gone-home {
+    background-image: url(../img/sinister-scenery.png);
+    min-height: 400px;
+}
+
+#todo {
+    background-image: url(../img/costumes.jpg);
+    min-height: 400px;
+}
+
+#costume {
+    background-image: url(../img/find-costume.jpg);
+    background-size:cover;
+    min-height: 400px;
+}
+
+#events {
+    background-image: url(../img/fall-forest.jpg); 
+    min-height: 400px;
+}
+
+#midterm-panic {
+    background-image: url(../img/leaves.jpeg); 
+    min-height: 285px;
+}
+
+#alone {
+    background-image: url(../img/ghost.jpeg); 
+}
+
+#fun-dream {
+    background-image: url(../img/fall-forest.jpg); 
+    min-height: 400px;
+}
+
+#high-spirits {
+    background-image: url(../img/fall-forest.jpg); 
+    min-height: 400px;
+}
+
+#headache {
+    background-image: url(../img/fall-forest.jpg); 
+    min-height: 400px;
+}
+
+#phillips-hall {
+    background-image: url(../img/phillips-hall-night.jpg); 
+    background-size: cover;
+    min-height: 400px;
+}
+
+#fun-time {
+    background-image: url(../img/pumpkins.jpg); 
+    min-height: 400px;
+}
+
+#zombie {
+    background-image: url(../img/zombie.jpg); 
+    min-height: 400px;
+}
+
+#ghost-attack {
+    background-image: url(../img/ghosts.jpg); 
+    min-height: 400px;
+}
+
+#safe-phillips {
+    background-image: url(../img/phillips-hall-good-ghost.jpg); 
+    min-height: 400px;
+}
+
+#witches {
+    background-image: url(../img/witches.jpg); 
+    min-height: 400px;
+}
+
+#chill-night {
+    background-image: url(../img/pumpkins.jpg); 
+    min-height: 400px;
+}
+
+@media screen and (min-width: 500px) {
+    .story-box h1 {
+        font-size: 36px;
+    }
+    button h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .story {
+        margin: 20px 10px;
+    }
+    .options-list {
+        padding: 10px;
+        max-height: 55%;
+    }
+    .option {
+        padding: 10px;
+    }
+    .img {
+        min-height: 500px;
+    }
+
+}
+@media screen and (min-width: 670px) {
+    .story-box h1 {
+        font-size: 36px;
+    }
+    .story-box {
+        margin: 25px;
+    }
+    .story {
+        margin: 10px 20px;
+        padding: 0px 30px;
+    }
+    .option h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .story-box {
+        margin: 10px;
+        margin-bottom: 15px;
+    }
+    .story {
+        margin: 10px 30px;
+        padding: 25px;
+    }
+    .story-box h1 {
+        font-size: 40px;
+    }
+    .option h2 {
+        font-size: 22px;
+    }
+    .option {
+        padding: 5px 0px;
+    }
+    .options-list {
+        padding: 15px;
+    }
+}
